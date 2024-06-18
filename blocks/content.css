@@ -4,10 +4,12 @@
 }
 .content__text {
   padding-left: 2%;
+  text-align: justify;
 }
 .content__text-title {
   font-family: "Inter";
   font-size: 3.4em;
+  text-align: justify;
 }
 .content__text-descrip {
   max-width: 738px;
@@ -20,4 +22,5 @@
 .content__text-footer {
   font-size: calc(1.2 + 1em);
   max-width: 722px;
+  text-align: justify;
 }
