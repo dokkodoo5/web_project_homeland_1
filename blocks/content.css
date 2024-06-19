@@ -1,6 +1,7 @@
 .content {
   display: flex;
   max-width: 830px;
+  margin-left: 8%;
 }
 .content__text {
   padding-left: 2%;
@@ -23,4 +24,10 @@
   font-size: calc(1.2 + 1em);
   max-width: 722px;
   text-align: justify;
+}
+@media screen and (max-width: 768px) {
+  .content {
+    margin-left: 0;
+    background-color: red;
+  }
 }
